@@ -19,7 +19,6 @@ class Plugin:
                 f"The '{ variant_key }' variant was applied to the arguments.",
                 level=logging.INFO
             )
-            print("New arguments: " + archinstall.arguments.__str__())
             archinstall.log(
                 "New arguments: " + archinstall.arguments.__str__(),
                 level=logging.DEBUG
