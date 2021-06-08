@@ -99,3 +99,9 @@ Selecting `laptop` on the other hand, would result in:
   "plugin": "https://github.com/phisch/archinstall-variant/raw/master/archinstall-variant.py"
 }
 ```
+### Non-interactive selection
+You can also pick a variant with the command line argument called `variant`, which skips the interactive variant selection if the given variant exists in the `config.json`:
+```shell
+archinstall --config https://path/or/url/to/your/config.json --variant=laptop
+The 'laptop' variant was applied to the arguments.
+```
